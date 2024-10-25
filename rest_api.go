@@ -67,7 +67,7 @@ func RestServiceFunc(ctx context.Context) {
 
 //
 
-func GetNodeListHandler(c *gin.Context) {
+func GetHelloHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "OK"})
 }
 
