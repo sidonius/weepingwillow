@@ -1,0 +1,13 @@
+[web_service]
+gin_mode = "release"
+port = "80"
+jwt_timeout = 1440
+jwt_refresh_time = 4320
+
+[log]
+production_mode = false
+output_file_path = ""
+size = 32
+backups = 5
+age = 120
+to_console = true
